@@ -44,14 +44,6 @@ Credentials:
 
 ## Instructions
 
-### What we are looking for?
-1. All task is completed in a week, Time start as soon as you received access to the code.
-2. How well you are using existing SilverStripe features to add this new functionality?
-3. How well you are following SilverStripe coding standards?
-3. Code is structured properly and easy to read. Simple clear code comments in the code will be helpful.
-4. Separate your <b>commits by task</b> and use the following format for your commit messages: {task heading - Bold text in task} - {time taken in hours} e.g. 'New Feedback Page Type - 3:20hr'
-5. Having a simple UI for the feedback form(Please use the simple theme which comes with this repo). UI work will be only considered as a bonus.
-
 ### Tasks
 1. <strong>New Feedback Page Type:</strong> Create a new page type called "Feedback" Page. A new page of the "Feedback" type should be created under Home and accessed from the main menu.
 2. <strong>Add Feedback Form To Feedback Page:</strong> Add form to the Feedback Page which saves user entries to the database on submission. Form fields are:
@@ -73,11 +65,23 @@ Credentials:
     * 10 - 11 Jan 2023
     * 5 - 10 Jan 2023
 
+### Sample Feedback Page
+![FeedbackPage](/app/images/SampleFeedbackForm.png?raw=true "FeedbackPage")
+
+### What we are looking for?
+1. All task is completed in a week, Time start as soon as you received access to the code.
+2. How well you are using existing SilverStripe features to add this new functionality?
+3. How well you are following SilverStripe coding standards?
+3. Code is structured properly and easy to read. Simple clear code comments in the code will be helpful.
+4. Separate your <b>commits by task</b> and use the following format for your commit messages: <b>{task heading - Bold text in task} - {time taken in hours} e.g. 'New Feedback Page Type - 3:20hr'</b>.
+5. Having a simple UI for the feedback form(Please use the simple theme which comes with this repo). UI work will be only considered as a bonus.
+
+
 ### How to submit your work?
 
 1. ##### First you need to [fork this repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
 2. ##### Then clone your fork locally.
-3. ##### Install the app locally. See the [Installation Guide](#Installation).
+3. ##### Install the app locally. See the [installation guide](#Installation).
 4. ##### Once you've completed your work, you can submit a [pull request to the remote repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork).
 5. ##### Send an email back to us with the PR link.
 
