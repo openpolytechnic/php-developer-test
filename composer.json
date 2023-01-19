@@ -1,7 +1,7 @@
 {
-    "name": "silverstripe/installer",
+    "name": "openpolytechnic/php-developer-test",
     "type": "silverstripe-recipe",
-    "description": "The SilverStripe Framework Installer",
+    "description": "Open Polytechnic PHP developer code test.",
     "require": {
         "php": "^7.4 || ^8.0",
         "silverstripe/recipe-plugin": "^1.2",
