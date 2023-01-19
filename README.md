@@ -1,4 +1,4 @@
-# PHP backend skill test
+# Open Polytechnic PHP Developer Code Test
 
 ## Overview
 
@@ -18,7 +18,7 @@ The Feedback App allows us to collect feedback. Here is the requirement for the 
 
 ## Installation
 
-<mark>Note: You need to fork this repository. See [Submiting your work?](#submiting-your-work)</mark>
+<span style="color: red;"><b>Note:</b> You need to fork this repository. See [How to submit your work?](#how-to-submit-your-work)</span>
 
 1. Create a database in your Mysql server
 2. Clone your forked repository
@@ -30,7 +30,7 @@ cp .env.example .env
 4. Update the database settings in .env file
 5. Run database build to setup initial data
 ```sh
-.\vendor\bin\sake dev/build "flush=1"
+./vendor/bin/sake dev/build "flush=1"
 ```
 5. Run the Dev server and access the site [http://localhost:5050](http://localhost:5050)
 ```sh 
