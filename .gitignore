@@ -2,7 +2,7 @@
 /silverstripe-cache/
 /.env
 /vendor/
-/themes/simple/
+#/themes/simple/
 /_resources/
 /public/_resources/
 /.graphql-generated/
