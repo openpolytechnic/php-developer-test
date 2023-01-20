@@ -69,7 +69,7 @@ Credentials:
 ![FeedbackPage](/app/images/SampleFeedbackForm.png?raw=true "FeedbackPage")
 
 ### What we are looking for?
-1. All task is completed in a week, Time start as soon as you received access to the code.
+1. All tasks are to be completed in a week. The time starts as soon as you receive access to the code.
 2. How well you are using existing SilverStripe features to add this new functionality?
 3. How well you are following SilverStripe coding standards?
 3. Code is structured properly and easy to read. Simple clear code comments in the code will be helpful.
