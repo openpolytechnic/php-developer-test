@@ -14,9 +14,9 @@ use SilverStripe\Forms\RequiredFields;
 class FeedbackPageController extends PageController
 {
 
-    private static $allowed_actions = ['Form'];
+    private static $allowed_actions = ['feedbackForm'];
 
-    public function Form()
+    public function feedbackForm()
     {
 
         $fields = new FieldList([
@@ -32,7 +32,7 @@ class FeedbackPageController extends PageController
 
         $requiredFields = new RequiredFields(['FirstName', 'LastName', 'Email', 'Message']);
 
-        return new Form($this, 'Form', $fields, $actions, $requiredFields);
+        return new Form($this, 'feedbackForm', $fields, $actions, $requiredFields);
     }
 
     public function submit($data, $form)
