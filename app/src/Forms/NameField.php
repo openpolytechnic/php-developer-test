@@ -1,6 +1,6 @@
 <?php
 
-namespace Feedback\Forms;
+namespace SilverStripe\Feedback\Forms;
 
 use SilverStripe\Forms\RequiredFields;
 use SilverStripe\Forms\TextField;
@@ -32,7 +32,7 @@ class NameField extends TextField
                 $validator->validationError(
                     $this->name,
                     _t(
-                        'Feedback\\Forms\\NameField.VALIDATENAMEREQUIRED',
+                        'SilverStripe\\Feedback\\Forms\\NameField.VALIDATEREQUIRED',
                         '{name} is required',
                         ['name' => $fieldName]
                     ),

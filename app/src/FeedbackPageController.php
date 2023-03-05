@@ -3,9 +3,9 @@
 namespace SilverStripe\Feedback;
 
 use PageController;
-use Feedback\Forms\MessageField;
-use Feedback\Forms\NameField;
-use SilverStripe\Forms\EmailField;
+use SilverStripe\Feedback\Forms\MessageField;
+use SilverStripe\Feedback\Forms\NameField;
+use SilverStripe\Feedback\Forms\EmailField;
 use SilverStripe\Forms\FieldList;
 use SilverStripe\Forms\Form;
 use SilverStripe\Forms\FormAction;
@@ -22,7 +22,7 @@ class FeedbackPageController extends PageController
         $fields = new FieldList([
             (new NameField('FirstName', 'First Name'))->setMaxLength(20),
             (new NameField('LastName', 'Last Name'))->setMaxLength(20),
-            (new EmailField('Email')),
+            (new EmailField('Email'))->setMaxLength(320),
             (new MessageField('Message'))->setMaxLength(255)
         ]);
 

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Standard module phpunit configuration.
+Requires PHPUnit ^9
+-->
+<phpunit bootstrap="tests/bootstrap.php" colors="true">
+	<testsuites>
+		<testsuite name="Default">
+			<directory>app/tests/php</directory>
+		</testsuite>
+		<testsuite name="app">
+			<directory>app/tests/php</directory>
+		</testsuite>
+		<testsuite name="cms">
+			<directory>vendor/silverstripe/cms/tests</directory>
+		</testsuite>
+	</testsuites>
+	<coverage processUncoveredFiles="true">
+		<include>
+			<directory suffix=".php">.</directory>
+		</include>
+		<exclude>
+			<directory suffix=".php">tests/</directory>
+			<directory suffix=".php">thirdparty/</directory>
+		</exclude>
+	</coverage>
+    
+</phpunit>
