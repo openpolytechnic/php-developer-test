@@ -1,9 +1,10 @@
 <?php
 
-namespace {
+namespace SilverStripe\Feedback;
 
-    class FeedbackPage extends Page {
+use Page;
 
-    }
+class FeedbackPage extends Page
+{
 
 }
