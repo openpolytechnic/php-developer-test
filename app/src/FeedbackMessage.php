@@ -7,17 +7,20 @@ use SilverStripe\ORM\DataObject;
 class FeedbackMessage extends DataObject
 {
 
-    private static $db = [
-        'FirstName' => 'Varchar(255)',
-        'LastName' => 'Varchar(255)',
-        'Email' => 'Varchar(255)',
-        'Message' => 'Text'
-    ];
-
-    private static $has_one = [
-        'FeedbackPage' => FeedbackPage::class
-    ];
-
     private static $table_name = 'FeedbackMessage';
+
+    /**
+     * Model Schema
+     *
+     * Note RFC3696 : email addresses may be up to 320 characters long
+     *
+     * @var type
+     */
+    private static $db = [
+        'FirstName' => 'Varchar(20)',
+        'LastName' => 'Varchar(20)',
+        'Email' => 'Varchar(320)',
+        'Message' => 'Varchar(255)'
+    ];
 
 }
