@@ -17,9 +17,9 @@
             </tr>
         </thead>
         <tbody>
-            <% loop $getFeedbackSummary %>
+			<% loop $getFeedbackSummary %>
             <tr>
-                <td>{$submissionsDate.Format('d MMMM y')}</td>
+                <td>{$Created.Format('d MMMM y')}</td>
                 <td>{$submissionsCount}</td>
             </tr>
             <% end_loop %>
