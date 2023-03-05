@@ -10,11 +10,18 @@ use SilverStripe\Forms\FieldList;
 use SilverStripe\Forms\Form;
 use SilverStripe\Forms\FormAction;
 use SilverStripe\Forms\RequiredFields;
+use SilverStripe\View\Requirements;
 
 class FeedbackPageController extends PageController
 {
 
     private static $allowed_actions = ['feedbackForm'];
+
+    protected function init()
+    {
+        parent::init();
+        Requirements::css('themes/simple/css/feedback.css');
+    }
 
     public function feedbackForm()
     {
