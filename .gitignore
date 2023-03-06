@@ -7,3 +7,5 @@
 /public/_resources/
 /.graphql-generated/
 /public/_graphql/
+.phpunit.result.cache
+/nbproject/private/

@@ -1,0 +1,4 @@
+#Form_feedbackForm :invalid:not(:focus)
+{
+	box-shadow: none;
+}
