@@ -1,6 +1,6 @@
 <?php
 
-namespace SilverStripe\Feedback;
+namespace App\Feedback;
 
 use Page;
 use SilverStripe\ORM\ArrayList;

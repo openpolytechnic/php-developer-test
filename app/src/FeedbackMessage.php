@@ -1,6 +1,6 @@
 <?php
 
-namespace SilverStripe\Feedback;
+namespace App\Feedback;
 
 use SilverStripe\ORM\DataObject;
 use SilverStripe\ORM\DataList;

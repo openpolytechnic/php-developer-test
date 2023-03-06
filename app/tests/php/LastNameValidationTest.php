@@ -1,7 +1,7 @@
 <?php
 
+use App\Feedback\Forms\NameField;
 use SilverStripe\Dev\SapphireTest;
-use SilverStripe\Feedback\Forms\NameField;
 use SilverStripe\Forms\RequiredFields;
 
 class LastNameValidationTest extends SapphireTest

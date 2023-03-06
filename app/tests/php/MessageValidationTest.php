@@ -1,7 +1,7 @@
 <?php
 
+use App\Feedback\Forms\MessageField;
 use SilverStripe\Dev\SapphireTest;
-use SilverStripe\Feedback\Forms\MessageField;
 use SilverStripe\Forms\RequiredFields;
 
 class MessageValidationTest extends SapphireTest

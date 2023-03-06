@@ -1,7 +1,7 @@
 <?php
 
+use App\Feedback\Forms\EmailField;
 use SilverStripe\Dev\SapphireTest;
-use SilverStripe\Feedback\Forms\EmailField;
 use SilverStripe\Forms\RequiredFields;
 
 class EmailValidationTest extends SapphireTest

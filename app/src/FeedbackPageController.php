@@ -1,11 +1,11 @@
 <?php
 
-namespace SilverStripe\Feedback;
+namespace App\Feedback;
 
 use PageController;
-use SilverStripe\Feedback\Forms\MessageField;
-use SilverStripe\Feedback\Forms\NameField;
-use SilverStripe\Feedback\Forms\EmailField;
+use App\Feedback\Forms\MessageField;
+use App\Feedback\Forms\NameField;
+use App\Feedback\Forms\EmailField;
 use SilverStripe\Forms\FieldList;
 use SilverStripe\Forms\Form;
 use SilverStripe\Forms\FormAction;

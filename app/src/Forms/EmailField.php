@@ -1,6 +1,6 @@
 <?php
 
-namespace SilverStripe\Feedback\Forms;
+namespace App\Feedback\Forms;
 
 use SilverStripe\Forms\RequiredFields;
 use SilverStripe\Forms\EmailField as SSEmailField;
