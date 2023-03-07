@@ -1,0 +1,1 @@
+{"version":1,"defects":{"FBTest::testMyMethod":4,"FeedbackValidTest::testMyMethod":4,"FeedbackValidTest::testExceedLimit":4,"FeedbackValidTest::testOnlyChars":4},"times":{"FBTest::testMyMethod":0.027,"FeedbackValidTest::testMyMethod":0.015,"FeedbackValidTest::testExceedLimit":0.015,"FeedbackValidTest::testOnlyChars":0}}
