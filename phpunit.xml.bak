@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit 
+    bootstrap="vendor/silverstripe/framework/tests/bootstrap.php" 
+    stopOnWarning="false" 
+    stopOnFailure="false" 
+    colors="true">
+    <testsuites>
+        <testsuite name="Feedback Validation Test Suit">
+            <directory>app/tests/</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory suffix=".php">Feedbacks/</directory>
+        </whitelist>
+    </filter>
+</phpunit>

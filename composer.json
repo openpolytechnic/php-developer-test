@@ -7,7 +7,9 @@
         "silverstripe/recipe-plugin": "^1.2",
         "silverstripe/recipe-cms": "~4.12.0@stable",
         "silverstripe-themes/simple": "~3.2.0",
-        "silverstripe/login-forms": "~4.8.0@stable"
+        "silverstripe/login-forms": "~4.8.0@stable",
+        "silverstripe/userforms": "^5.14",
+        "ilateral/silverstripe-bootstrap-4": "^1.4"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5"

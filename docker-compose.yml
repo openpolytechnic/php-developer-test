@@ -1,0 +1,35 @@
+version: "3.1"
+services:
+  php:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/var/www/html
+    ports:
+      - 5050:80
+    command: >
+      bash -c "a2enmod rewrite
+      && apache2-foreground"   
+  db:
+    image: mysql
+    restart: always
+    ports: 
+      - 3306
+    environment:
+      MYSQL_ROOT_PASSWORD: admin   
+      MYSQL_DATABASE: healing_tree_db
+ 
+  phpmyadmin:
+    image: phpmyadmin
+    restart: always
+    ports:
+      - 8080:80
+    environment:
+      UPLOAD_LIMIT: 100000000
+     # PMA_HOST: 'db'
+     # PMA_USER: 'root'
+      #PMA_PASSWORD: 'admin'
+
+
+      
